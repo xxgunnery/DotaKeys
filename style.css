@@ -1,0 +1,268 @@
+.projectContainer {
+    margin-top: 100px;
+}
+.keyboard {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 18.75px;
+    width: 1600px;
+    margin: auto;
+}
+.keyboardRow {
+    margin: 2.5px;
+    display: flex;
+}
+.key {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3.75px;
+    margin-left: 3.75px;
+}
+.key2 {
+    height: 60px;
+    width: 142.5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3.75px;
+    margin-left: 3.75px;
+}
+.key3 {
+    height: 60px;
+    width: 101.25px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3.75px;
+    margin-left: 3.75px;
+}
+.key4 {
+    height: 60px;
+    width: 116.25px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3.75px;
+    margin-left: 3.75px;
+}
+.key5 {
+    height: 60px;
+    width: 154.4px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3.75px;
+    margin-left: 3.75px;
+}
+.key6 {
+    height: 60px;
+    width: 183.75px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3.75px;
+    margin-left: 3.75px;
+}
+.key7 {
+    height: 60px;
+    width: 82.5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3.75px;
+    margin-left: 3.75px;
+}
+.key8 {
+    height: 60px;
+    width: 391.5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3.75px;
+    margin-left: 3.75px;
+}
+.letter {
+    font-size: 18.75px;
+    line-height: 1;
+    text-align: center;
+}
+.hotkeySelection {
+    border: 2px solid black;
+    width: 1600px;
+    margin: auto;
+    margin-top: 15px;
+    color: black;
+    background-color: #F5F5F5;
+    border-radius: 6px;
+}
+.hotkeyHeader {
+    font-size: 28px;
+    background-color: #E0E0E0;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 6px 6px 0px 0px;
+}
+.hotkeySection {
+    padding: 20px;
+
+}
+.hotkeyColumn {
+    display: flex;
+    flex-direction: column;
+}
+.hotkeyHeader2 {
+    font-size: 25px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+.hotkeyGrid {
+    border: 4px solid #000000;
+    padding: 20px;
+    background-color: #424242;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.hotkeyRow {
+    display: flex;
+    color: #EEEEEE;
+    font-size: 18.75px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+.hotkeyLabel {
+    background-color: #212121;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    width: 325px;
+    margin-right: 5px;
+}
+.hotkeySelect {
+    margin-left: 5px;
+    background-color: #616161;
+    width: 150px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    border: 1px solid black;
+}
+.hotkeySelect:hover {
+    cursor: pointer;
+    background-color: #BDBDBD!important;
+}
+.hotkeyGridAbilities {
+    border: 4px solid #000000;
+    padding: 20px;
+    background-color: #424242;
+    border-radius: 4px;
+}
+.abilityGridRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+.abilityGridRow div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000000;
+    margin: auto;
+    background-color:#212121;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: #EEEEEE;
+}
+.abilityGridRowSelect {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.abilityGridRowSelect div {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000000;
+    margin: auto;
+    background-color:#616161;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: #EEEEEE;
+    text-align: center;
+}
+.abilityGridRowSelect div:hover {
+    cursor: pointer;
+    background-color: #BDBDBD!important;
+}
+.hotkeyGridItems {
+    border: 4px solid #000000;
+    padding: 10px;
+    background-color: #424242;
+    border-radius: 4px;
+}
+.itemGridRow {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.itemGridRow div {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid #000000;
+    background-color: #212121;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: #EEEEEE;
+}
+.itemGridRowSelect {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.itemGridRowSelect div {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000000;
+    margin: auto;
+    background-color:#616161;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: #EEEEEE;
+}
+.itemGridRowSelect div:hover {
+    cursor: pointer;
+    background-color: #BDBDBD!important;
+}
